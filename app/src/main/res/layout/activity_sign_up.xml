@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9EAEF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/nameId"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="150dp"
+        android:background="#FFFFFF"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/userNameId"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="UserName" />
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/passId"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/signUpId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#009688"
+        android:text="Sign Up" />
+
+</LinearLayout>
